@@ -15,15 +15,7 @@ Pour ce TP vous pouvez soit repartir de vos fichiers du précédent TP (si vous 
 
 *Si vous repartez de vos fichiers, **pensez à faire un `git pull`** pour récupérer les dernières modifications du repo (probablement des modifs de CSS ou des corrections de dernière minute).*
 
-1. **Commencez par faire un fork du TP :**
-	- soit en cliquant sur le bouton `"Créer une divergence"` (_`"Fork"` sur la version anglaise de gitlab_)
-	- soit en vous rendant directement sur https://framagit.org/cours-react/tp3/-/forks/new
-
-	**⚠️ ATTENTION :** Choisissez de placer le fork **dans votre profil utilisateur** et vérifiez que le repo est **bien en mode "privé"**
-
-2. **Ajoutez moi en tant que "reporter" pour que j'ai accès à votre code :** dans le menu de gauche, cliquez sur `"Project information"` &gt; `"Membres"`, et entrez `@tf` comme nom d'utilisateur, et donc `"reporter"` comme rôle.
-
-3. **Récupérez ensuite les fichiers de ce TP grâce à Git : clonez votre fork dans un dossier de votre choix** :
+1. **Récupérez ensuite les fichiers de ce TP grâce à Git : clonez votre fork dans un dossier de votre choix** :
 	```bash
 	mkdir ~/tps-react
 	git clone https://github.com/GuillaumeCar/react-sujet-tp3.git ~/tps-react/tp3
@@ -32,12 +24,12 @@ Pour ce TP vous pouvez soit repartir de vos fichiers du précédent TP (si vous 
 
 	> _**NB2 :** Comme pour le TP1 aussi, si vous préférez **cloner en SSH** pour ne pas avoir à taper votre mot de passe à chaque fois, renseignez votre clé SSH dans votre [compte utilisateur gitlab](https://framagit.org/profile/keys) et clonez à partir de cette URL : `git@framagit.org:cours-react/tp3.git`_
 
-4. **Ouvrez le projet dans VSCodium** (pour les différentes façon d'ouvrir le projet relisez les [instructions du TP1](https://framagit.org/cours-react/tp1/-/blob/master/A-preparatifs.md#a3-ouvrir-le-projet-dans-vscodium) )
+2. **Ouvrez le projet dans VSCodium** (pour les différentes façon d'ouvrir le projet relisez les [instructions du TP1](https://framagit.org/cours-react/tp1/-/blob/master/A-preparatifs.md#a3-ouvrir-le-projet-dans-vscodium) )
 	```bash
 	codium ~/tps-react/tp3
 	```
 
-5. **Installez les paquets npm nécessaires au projet** notamment le compilateur [Babel](https://babeljs.io).<br>
+3. **Installez les paquets npm nécessaires au projet** notamment le compilateur [Babel](https://babeljs.io).<br>
 	Ouvrez un terminal intégré à VSCodium (<kbd>CTRL</kbd>+<kbd>J</kbd> *(PC)* / <kbd>CMD</kbd>+<kbd>J</kbd> *(Mac)*) et tapez juste :
 	```bash
 	npm install
